@@ -1,0 +1,227 @@
+{
+  "color": {
+    "neutral": {
+      "white":            { "$value": "#FFFFFF", "$type": "color" },
+      "grey-01":          { "$value": "#F4F4F5", "$type": "color" },
+      "grey-02":          { "$value": "#EFEFF0", "$type": "color" },
+      "grey-03":          { "$value": "#DBDCDD", "$type": "color" },
+      "grey-04":          { "$value": "#C7C8CB", "$type": "color" },
+      "grey-05":          { "$value": "#B2B5B8", "$type": "color" },
+      "grey-06":          { "$value": "#626973", "$type": "color" },
+      "black":            { "$value": "#1D242D", "$type": "color" },
+      "grey-background":  { "$value": "#F2F5F9", "$type": "color" }
+    },
+
+    "primary-blue": {
+      "light": {
+        "light":          { "$value": "#E8F2FA", "$type": "color" },
+        "light-hover":    { "$value": "#DCEBF8", "$type": "color" },
+        "light-active":   { "$value": "#B7D5F1", "$type": "color" },
+        "normal":         { "$value": "#1678D1", "$type": "color" },
+        "normal-hover":   { "$value": "#146CBC", "$type": "color" },
+        "normal-active":  { "$value": "#1260A7", "$type": "color" },
+        "dark":           { "$value": "#115A9D", "$type": "color" },
+        "dark-hover":     { "$value": "#0D487D", "$type": "color" },
+        "dark-active":    { "$value": "#0A365E", "$type": "color" },
+        "darker":         { "$value": "#082A49", "$type": "color" }
+      },
+      "dark": {
+        "light":          { "$value": "#EAEAF4", "$type": "color" },
+        "light-hover":    { "$value": "#E0E0EE", "$type": "color" },
+        "light-active":   { "$value": "#BFBEDB", "$type": "color" },
+        "normal":         { "$value": "#2F2E8C", "$type": "color" },
+        "normal-hover":   { "$value": "#2A297E", "$type": "color" },
+        "normal-active":  { "$value": "#262570", "$type": "color" },
+        "dark":           { "$value": "#232369", "$type": "color" },
+        "dark-hover":     { "$value": "#1C1C54", "$type": "color" },
+        "dark-active":    { "$value": "#15153F", "$type": "color" },
+        "darker":         { "$value": "#101031", "$type": "color" }
+      }
+    },
+
+    "secondary-01": {
+      "light":          { "$value": "#ECF2FB", "$type": "color" },
+      "light-hover":    { "$value": "#E2ECF9", "$type": "color" },
+      "light-active":   { "$value": "#C4D8F3", "$type": "color" },
+      "normal":         { "$value": "#4080D8", "$type": "color" },
+      "normal-hover":   { "$value": "#3A73C2", "$type": "color" },
+      "normal-active":  { "$value": "#3366AD", "$type": "color" },
+      "dark":           { "$value": "#3060A2", "$type": "color" },
+      "dark-hover":     { "$value": "#264D82", "$type": "color" },
+      "dark-active":    { "$value": "#1D3A61", "$type": "color" },
+      "darker":         { "$value": "#162D4C", "$type": "color" }
+    },
+    "secondary-02": {
+      "light":          { "$value": "#EAF5FE", "$type": "color" },
+      "light-hover":    { "$value": "#E0F0FD", "$type": "color" },
+      "light-active":   { "$value": "#BFE0FB", "$type": "color" },
+      "normal":         { "$value": "#319BF3", "$type": "color" },
+      "normal-hover":   { "$value": "#2C8CDB", "$type": "color" },
+      "normal-active":  { "$value": "#277CC2", "$type": "color" },
+      "dark":           { "$value": "#2574B6", "$type": "color" },
+      "dark-hover":     { "$value": "#1D5D92", "$type": "color" },
+      "dark-active":    { "$value": "#16466D", "$type": "color" },
+      "darker":         { "$value": "#113655", "$type": "color" }
+    },
+    "secondary-03": {
+      "light":          { "$value": "#F2F5FA", "$type": "color" },
+      "light-hover":    { "$value": "#EBF0F8", "$type": "color" },
+      "light-active":   { "$value": "#D5DFF1", "$type": "color" },
+      "normal":         { "$value": "#7999D1", "$type": "color" },
+      "normal-hover":   { "$value": "#6D8ABC", "$type": "color" },
+      "normal-active":  { "$value": "#617AA7", "$type": "color" },
+      "dark":           { "$value": "#5B739D", "$type": "color" },
+      "dark-hover":     { "$value": "#495C7D", "$type": "color" },
+      "dark-active":    { "$value": "#36455E", "$type": "color" },
+      "darker":         { "$value": "#2A3649", "$type": "color" }
+    },
+    "secondary-04": {
+      "light":          { "$value": "#F5FAFF", "$type": "color" },
+      "light-hover":    { "$value": "#F0F7FE", "$type": "color" },
+      "light-active":   { "$value": "#DFEEFE", "$type": "color" },
+      "normal":         { "$value": "#99C9FB", "$type": "color" },
+      "normal-hover":   { "$value": "#8AB5E2", "$type": "color" },
+      "normal-active":  { "$value": "#7AA1C9", "$type": "color" },
+      "dark":           { "$value": "#7397BC", "$type": "color" },
+      "dark-hover":     { "$value": "#5C7997", "$type": "color" },
+      "dark-active":    { "$value": "#455A71", "$type": "color" },
+      "darker":         { "$value": "#364658", "$type": "color" }
+    },
+
+    "system": {
+      "red": {
+        "light":          { "$value": "#FDECEA", "$type": "color" },
+        "light-hover":    { "$value": "#FCE3DF", "$type": "color" },
+        "light-active":   { "$value": "#F9C5BC", "$type": "color" },
+        "normal":         { "$value": "#EB4528", "$type": "color" },
+        "normal-hover":   { "$value": "#D43E24", "$type": "color" },
+        "normal-active":  { "$value": "#BC3720", "$type": "color" },
+        "dark":           { "$value": "#B0341E", "$type": "color" },
+        "dark-hover":     { "$value": "#8D2918", "$type": "color" },
+        "dark-active":    { "$value": "#6A1F12", "$type": "color" },
+        "darker":         { "$value": "#52180E", "$type": "color" }
+      },
+      "amber": {
+        "light":          { "$value": "#FFF8E6", "$type": "color" },
+        "light-hover":    { "$value": "#FFF4D9", "$type": "color" },
+        "light-active":   { "$value": "#FFE8B1", "$type": "color" },
+        "normal":         { "$value": "#FFB603", "$type": "color" },
+        "normal-hover":   { "$value": "#E6A403", "$type": "color" },
+        "normal-active":  { "$value": "#CC9202", "$type": "color" },
+        "dark":           { "$value": "#BF8902", "$type": "color" },
+        "dark-hover":     { "$value": "#996D02", "$type": "color" },
+        "dark-active":    { "$value": "#735201", "$type": "color" },
+        "darker":         { "$value": "#594001", "$type": "color" }
+      },
+      "green": {
+        "light":          { "$value": "#F1F8EB", "$type": "color" },
+        "light-hover":    { "$value": "#EAF5E1", "$type": "color" },
+        "light-active":   { "$value": "#D4EAC0", "$type": "color" },
+        "normal":         { "$value": "#75BB34", "$type": "color" },
+        "normal-hover":   { "$value": "#69A82F", "$type": "color" },
+        "normal-active":  { "$value": "#5E962A", "$type": "color" },
+        "dark":           { "$value": "#588C27", "$type": "color" },
+        "dark-hover":     { "$value": "#46701F", "$type": "color" },
+        "dark-active":    { "$value": "#355417", "$type": "color" },
+        "darker":         { "$value": "#294112", "$type": "color" }
+      }
+    },
+
+    "misc": {
+      "background-blue": { "$value": "#28A8E8", "$type": "color" }
+    },
+
+    "report": {
+      "malibu": {
+        "tint-05":    { "$value": "#EFF4FA", "$type": "color" },
+        "tint-04":    { "$value": "#CFDEF0", "$type": "color" },
+        "tint-03":    { "$value": "#92B4D8", "$type": "color" },
+        "tint-02":    { "$value": "#759FC8", "$type": "color" },
+        "tint-01":    { "$value": "#5A8BB6", "$type": "color" },
+        "normal":     { "$value": "#99C9F8", "$type": "color" },
+        "shade-03":   { "$value": "#4376A1", "$type": "color" },
+        "shade-04":   { "$value": "#30628A", "$type": "color" },
+        "shade-05":   { "$value": "#224F70", "$type": "color" },
+        "shade-06":   { "$value": "#1A3C56", "$type": "color" }
+      },
+      "tulip": {
+        "tint-04":    { "$value": "#FFF0EF", "$type": "color" },
+        "tint-03":    { "$value": "#FFD1D0", "$type": "color" },
+        "tint-02":    { "$value": "#FEB3B3", "$type": "color" },
+        "tint-01":    { "$value": "#F59798", "$type": "color" },
+        "normal":     { "$value": "#FE868A", "$type": "color" },
+        "shade-01":   { "$value": "#E77C7F", "$type": "color" },
+        "shade-02":   { "$value": "#D46369", "$type": "color" },
+        "shade-03":   { "$value": "#BD4D55", "$type": "color" },
+        "shade-04":   { "$value": "#A33B44", "$type": "color" },
+        "shade-05":   { "$value": "#852C34", "$type": "color" },
+        "shade-06":   { "$value": "#662127", "$type": "color" }
+      },
+      "blue-bell": {
+        "tint-05":    { "$value": "#F3F3FC", "$type": "color" },
+        "tint-04":    { "$value": "#DCDAF5", "$type": "color" },
+        "tint-03":    { "$value": "#C4C3EC", "$type": "color" },
+        "tint-02":    { "$value": "#ACACE1", "$type": "color" },
+        "tint-01":    { "$value": "#9596D3", "$type": "color" },
+        "normal":     { "$value": "#898BCE", "$type": "color" },
+        "shade-03":   { "$value": "#7E81C1", "$type": "color" },
+        "shade-04":   { "$value": "#696CAC", "$type": "color" },
+        "shade-05":   { "$value": "#555994", "$type": "color" },
+        "shade-06":   { "$value": "#434779", "$type": "color" },
+        "shade-07":   { "$value": "#33365D", "$type": "color" }
+      },
+      "tang-blue": {
+        "tint-08":    { "$value": "#F3F2FF", "$type": "color" },
+        "tint-07":    { "$value": "#D9D9FF", "$type": "color" },
+        "tint-06":    { "$value": "#BDC0FF", "$type": "color" },
+        "tint-05":    { "$value": "#A0A9FF", "$type": "color" },
+        "tint-04":    { "$value": "#8192FF", "$type": "color" },
+        "tint-03":    { "$value": "#637DF4", "$type": "color" },
+        "tint-02":    { "$value": "#4769DF", "$type": "color" },
+        "tint-01":    { "$value": "#2F56C3", "$type": "color" },
+        "normal":     { "$value": "#2355C7", "$type": "color" },
+        "shade-01":   { "$value": "#1F45A1", "$type": "color" },
+        "shade-02":   { "$value": "#19347C", "$type": "color" }
+      },
+      "disco": {
+        "tint-08":    { "$value": "#FFEFF6", "$type": "color" },
+        "tint-07":    { "$value": "#FED0E5", "$type": "color" },
+        "tint-06":    { "$value": "#F9B2D3", "$type": "color" },
+        "tint-05":    { "$value": "#F094C0", "$type": "color" },
+        "tint-04":    { "$value": "#E278AD", "$type": "color" },
+        "tint-03":    { "$value": "#D05F99", "$type": "color" },
+        "tint-02":    { "$value": "#BA4885", "$type": "color" },
+        "tint-01":    { "$value": "#A03670", "$type": "color" },
+        "normal":     { "$value": "#881259", "$type": "color" },
+        "shade-01":   { "$value": "#83285A", "$type": "color" },
+        "shade-02":   { "$value": "#651E45", "$type": "color" }
+      },
+      "magenta-haze": {
+        "tint-07":    { "$value": "#FBF1F7", "$type": "color" },
+        "tint-06":    { "$value": "#F2D4E8", "$type": "color" },
+        "tint-05":    { "$value": "#E8B9D8", "$type": "color" },
+        "tint-04":    { "$value": "#DA9EC7", "$type": "color" },
+        "tint-03":    { "$value": "#CA85B5", "$type": "color" },
+        "tint-02":    { "$value": "#B76EA1", "$type": "color" },
+        "tint-01":    { "$value": "#A2598C", "$type": "color" },
+        "normal":     { "$value": "#985083", "$type": "color" },
+        "shade-01":   { "$value": "#8A4777", "$type": "color" },
+        "shade-02":   { "$value": "#713760", "$type": "color" },
+        "shade-03":   { "$value": "#562A49", "$type": "color" }
+      },
+      "federal-blue": {
+        "tint-10":    { "$value": "#F8F1FE", "$type": "color" },
+        "tint-09":    { "$value": "#E9D5FA", "$type": "color" },
+        "tint-08":    { "$value": "#D9BBF4", "$type": "color" },
+        "tint-07":    { "$value": "#C7A1EB", "$type": "color" },
+        "tint-06":    { "$value": "#B489DF", "$type": "color" },
+        "tint-05":    { "$value": "#9F72CE", "$type": "color" },
+        "tint-04":    { "$value": "#8A5EB9", "$type": "color" },
+        "tint-03":    { "$value": "#744B9F", "$type": "color" },
+        "tint-02":    { "$value": "#5D3B83", "$type": "color" },
+        "tint-01":    { "$value": "#472C64", "$type": "color" },
+        "normal":     { "$value": "#220052", "$type": "color" }
+      }
+    }
+  }
+}

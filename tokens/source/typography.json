@@ -1,0 +1,80 @@
+{
+  "font-family": {
+    "title": { "$value": "Poppins", "$type": "fontFamily" },
+    "body":  { "$value": "Poppins", "$type": "fontFamily" }
+  },
+
+  "font-weight": {
+    "regular":  { "$value": 400, "$type": "fontWeight" },
+    "medium":   { "$value": 500, "$type": "fontWeight" },
+    "semibold": { "$value": 600, "$type": "fontWeight" },
+    "bold":     { "$value": 700, "$type": "fontWeight" }
+  },
+
+  "font-size": {
+    "2xs":      { "$value": "10px", "$type": "dimension" },
+    "xs":       { "$value": "12px", "$type": "dimension" },
+    "sm":       { "$value": "14px", "$type": "dimension" },
+    "base":     { "$value": "16px", "$type": "dimension" },
+    "lg":       { "$value": "18px", "$type": "dimension" },
+    "xl":       { "$value": "20px", "$type": "dimension" },
+    "2xl":      { "$value": "24px", "$type": "dimension" }
+  },
+
+  "line-height": {
+    "2xs":      { "$value": "14px", "$type": "dimension" },
+    "xs":       { "$value": "16px", "$type": "dimension" },
+    "sm":       { "$value": "20px", "$type": "dimension" },
+    "lg":       { "$value": "24px", "$type": "dimension" },
+    "xl":       { "$value": "28px", "$type": "dimension" },
+    "2xl":      { "$value": "32px", "$type": "dimension" }
+  },
+
+  "text-style": {
+    "paragraph-medium-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font-family.body}",
+        "fontWeight": "{font-weight.regular}",
+        "fontSize":   "{font-size.sm}",
+        "lineHeight": "{line-height.sm}"
+      }
+    },
+    "heading-h3-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font-family.title}",
+        "fontWeight": "{font-weight.semibold}",
+        "fontSize":   "{font-size.base}",
+        "lineHeight": "{line-height.sm}"
+      }
+    },
+    "title-xl-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font-family.title}",
+        "fontWeight": "{font-weight.bold}",
+        "fontSize":   "22px",
+        "lineHeight": "{line-height.xl}"
+      }
+    },
+    "body-xs-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font-family.body}",
+        "fontWeight": "{font-weight.semibold}",
+        "fontSize":   "{font-size.xs}",
+        "lineHeight": "{line-height.xs}"
+      }
+    },
+    "body-xs-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font-family.body}",
+        "fontWeight": "{font-weight.regular}",
+        "fontSize":   "{font-size.xs}",
+        "lineHeight": "{line-height.xs}"
+      }
+    }
+  }
+}

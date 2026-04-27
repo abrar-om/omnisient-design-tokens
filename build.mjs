@@ -3,12 +3,21 @@ import { register } from '@tokens-studio/sd-transforms';
 
 register(StyleDictionary);
 
+// tokens-studio's transformGroup ends with `name/camel`; swap it for kebab so
+// generated CSS vars match Tailwind v4 / shadcn convention (`--color-foo-bar`).
+StyleDictionary.registerTransformGroup({
+  name: 'tokens-studio-kebab',
+  transforms: StyleDictionary.hooks.transformGroups['tokens-studio'].map(
+    (t) => (t === 'name/camel' ? 'name/kebab' : t)
+  ),
+});
+
 const sd = new StyleDictionary({
   source: ['tokens/source/**/*.json'],
   preprocessors: ['tokens-studio'],
   platforms: {
     css: {
-      transformGroup: 'tokens-studio',
+      transformGroup: 'tokens-studio-kebab',
       buildPath: 'build/css/',
       files: [{
         destination: 'tokens.css',
@@ -17,7 +26,7 @@ const sd = new StyleDictionary({
       }]
     },
     tailwind: {
-      transformGroup: 'tokens-studio',
+      transformGroup: 'tokens-studio-kebab',
       buildPath: 'build/tailwind/',
       files: [{
         destination: 'tokens.json',
